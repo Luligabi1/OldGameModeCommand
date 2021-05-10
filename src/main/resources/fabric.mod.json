@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "oldgamemodecommand",
+  "version": "${version}",
+  "name": "Old GameMode Command",
+  "description": "Adds pre-1.13 /gamemode command behavior",
+  "authors": [
+    "Luligabi"
+  ],
+  "contact": {
+    "homepage": "",
+    "repo": "dummy",
+    "issues": ""
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/oldgamemodecommand/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "*": [
+      "me.luligabi.ogmc.OldGameModeCommand"
+    ]
+  },
+  "mixins": [
+    "oldgamemodecommand.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
