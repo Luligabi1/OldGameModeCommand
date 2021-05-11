@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "oldgamemodecommand",
+  "id": "ogmc",
   "version": "${version}",
   "name": "Old GameMode Command",
   "description": "Adds pre-1.13 /gamemode command behavior",
@@ -8,15 +8,15 @@
     "Luligabi"
   ],
   "contact": {
-    "homepage": "",
-    "repo": "dummy",
-    "issues": ""
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/old-gamemode-command",
+    "repo": "https://github.com/Luligabi1/OldGameModeCommand",
+    "issues": "https://github.com/Luligabi1/OldGameModeCommand/issues"
   },
   "license": "Apache-2.0",
   "icon": "assets/oldgamemodecommand/icon.png",
   "environment": "client",
   "entrypoints": {
-    "*": [
+    "client": [
       "me.luligabi.ogmc.OldGameModeCommand"
     ]
   },

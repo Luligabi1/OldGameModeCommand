@@ -4,11 +4,9 @@
   "package": "me.luligabi.ogmc.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "GameModeCommandMixin",
-    "GameModeInvoker"
+    "ClientPlayerEntityMixin"
   ],
-  "client": [
-  ],
+  "client": [],
   "injectors": {
     "defaultRequire": 1
   }
